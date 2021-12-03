@@ -8,16 +8,3 @@ h1 {
   text-align: center;
   border: 2px solid white;
 }
-
-p {
-  font-size: 20px;
-  text-align: center;
-}
-
-a:link {
-  color: #018a16;
-}
-
-a:visited {
-  color: #1d6d78;
-}
