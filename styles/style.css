@@ -1,23 +1,10 @@
 body {
-   background-color: #524E4E;
+   background-color: #F2F2F2;
 }
 
 h1 {
   font-size: 150px;
-  color: #21470B;
+  color: #0D0D0D;
   text-align: center;
-  border: 2px solid white;
-}
-
-p {
-  font-size: 20px;
-  text-align: center;
-}
-
-a:link {
-  color: #018a16;
-}
-
-a:visited {
-  color: #1d6d78;
+  border: 2px solid #D99A4E;
 }
