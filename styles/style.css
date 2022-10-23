@@ -1,0 +1,37 @@
+@charset "UFT-8";
+
+* {
+	font-family: 'Ubuntu Mono', monospace;
+	font-size: ;
+}
+
+body {
+	background-color: #171421;
+}
+
+main {
+	color: #13E013;
+	width: 750px;
+	padding: 10px;
+	margin: auto;
+	background-color: #241F33;
+	border-radius: 10px;
+}
+
+h1 {
+	text-align: center;
+	color: #8AE234;
+}
+
+h2, h3 {
+	color: #8AE234;
+}
+
+p, li {
+	font-size: large;
+	text-align: justify;
+}
+
+a {
+	color: #13E013;
+}
