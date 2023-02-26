@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+	font-family: idroid;
+	src: url(fontes/idroid.otf)
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: lightgreen;
+	font-family: Arial;
+}
+
+header {
+	background: linear-gradient(#3DDC84, #063D1E);
+	color: white;
+	text-align: center;
+	min-width: 150px;
+}
+
+header > h1 {
+	padding: 20px;
+	font-family: 'Bebas Neue', cursive;
+}
+
+header > p {
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+nav > a {
+	text-decoration: none;
+	color: white;
+	margin-right: 10px;
+	padding-left: 10px;
+}
+
+nav > a:hover {
+	text-decoration: underline;
+}
+
+main {
+	max-width: 800px;
+	min-width: 320px;
+	padding: 20px;
+	margin: auto;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	background-color: white;
+}
+
+main p {
+	text-align: justify;
+	margin: 15px 0px;
+	text-indent: 30px;
+	line-height: 2em;
+}
+
+main a {
+	text-decoration: none;
+	padding: 2px 6px;
+	background-color: lightgreen;
+	color: #063D1E;
+	font-weight: bold;
+}
+
+main a:hover {
+	text-decoration: underline;
+}
+
+img {
+	width: 100%;
+}
+
+img#pequena {
+	max-width: 350px;
+	display: block;
+	margin: auto;
+}
+
+h3 {
+	background-image: linear-gradient(to right, lightgreen, transparent);
+	text-indent: 10px;
+}
+
+#titulo {
+	font-family: idroid;
+	color: #063D1E;
+}
+
+#video {
+	background-color: #063D1E;
+	margin: 0px -20px 30px -20px;
+	padding: 20px;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    width: 75%;
+    height: 300px;
+    padding: 5px;
+}
+
+#extra {
+	background-color: #C5EBD6;
+	border-radius: 10px;
+}
+
+h4 {
+	background-color: #2FA866;
+	color: white;
+	padding: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+#conteudo_extra {
+	padding: 10px;
+}
+
+ul {
+	list-style-type: '\1F5F8\00A0\00A0';
+	list-style-position: inside;
+	columns: 2;
+}
+
+footer {
+	background-color: #063D1E;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+footer > p {
+	text-align: center;
+	color: white;
+}
