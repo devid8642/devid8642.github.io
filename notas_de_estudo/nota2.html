@@ -10,7 +10,7 @@
 	<main>
 		<h1>Versionamento e Git</h1>
 		<div align="center">
-			<img src="assets/ramos.gif">
+			<img src="../assets/ramos.gif">
 		</div>
 		<p>
 			Desenvolver software é muito mais que apenas programação pois, a medida que os sistemas se tornavam cada vez mais complexos, surgiu a necessidade de gerenciar o processo de desenvolvimento de software. Assim nasceram as ferramentas de <i>gestão de escrita de código</i>. Por muito tempo existiram uma pluralidade de ferramentas mas hoje em dia o mercado e a comunidade foram completamente tomados por Git. Estudando Git eu passei a enxergar a beleza e a engenhosidade deste software: a forma como ele lida com os arquivos criando uma espécie de banco de dados das diferentes formas que o seu software atingiu, o sistema de ramos que possibilita o envolvimento de equipes inteiras de programadores em um mesmo projeto e, nas versões atuais, possui várias outras funcionalidades.
@@ -18,7 +18,7 @@
 
 		<h2 align="center">Armazenando as versões do arquivos</h2>
 		<div align="center">
-			<img src="assets/git_600.png">
+			<img src="../assets/git_600.png">
 		</div>
 		<p>
 			Os outros sistemas como o Git trabalham armazenando, a cada nova versão, uma lista com as mudanças feitas nos arquivos. Ou seja, eles armazenam os "deltas" entre um arquivo em uma versão e o mesmo arquivo em outra. O Git adota um modelo diferente, ele armazena, a cada versão, os arquivos (ele por inteiro não só o delta) que foram alterados. E se o arquivo não foi alterado ele armazena um link que aponta para a última versão do arquivo. Como pode ser visto na imagem acima. Essa forma de lidar com os arquivos é o que garante a maioria das funcionalidades e da velocidade do Git.
@@ -26,7 +26,7 @@
 
 		<h2 align="center">Sistema de ramos do Git</h2>
 		<div align="center">
-			<img src="assets/ramos_600.png">
+			<img src="../assets/ramos_600.png">
 		</div>
 		<p>
 			Um ramo nada mais é que um ponteiro que leva à um commit. Criar um ramo para um projeto significa sair da linha de trabalho principal e começar a desenvolver em uma "outra" cópia do projeto. Possibilitando assim que se faça novas adições ou testes sem comprometer o que está sendo feito na linha principal. Em outros sistemas de versionamento fazer isso tem um custo muito alto pois é uma tarefa pesada, mas para o Git não. Os ramos também possibilitam que vários programadores trabalhem em um mesmo projeto.
