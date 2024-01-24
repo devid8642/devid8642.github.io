@@ -48,12 +48,40 @@ body {
 	align-items: center;
 }
 
+.project {
+	margin-top: 40px;
+}
+
 .project_content {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	width: 500px;
+}
+
+.button_projects {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.button_link:link, .button_link:visited {
+	text-decoration: none;
+	color: #13E013;
+	background-color: #241F33;
+	border: 2px solid #0f8d0f;
+	text-align: center;
+	display: block;
+	padding: 10px 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 100px;
+}
+
+.button_link:hover, .button_link:active {
+	background-color: #13E013;
+	color: #241F33;
 }
 
 .subtitle_with_text {
