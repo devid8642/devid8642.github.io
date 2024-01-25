@@ -33,16 +33,24 @@ body {
 	font-size: 20px;
 }
 
+.note {
+	width: 500px;
+	font-size: medium;
+}
+
 .link {
 	color: #13E013;
 }
 
-.project_link {
-	display: block;
+.link_list {
 	margin-bottom: 15px;
 }
 
-.intro, .project {
+.list_without_style {
+	list-style-type: none;
+}
+
+.intro, .project, .study_notes {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
