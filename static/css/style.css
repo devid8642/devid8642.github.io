@@ -97,7 +97,7 @@ body {
 }
 
 @media screen and (max-width: 1200px) {
-	.project {
+	.project, .study_notes {
 		flex-wrap: wrap;
 	}
 
@@ -121,5 +121,9 @@ body {
 
 	.subtitle_with_text, .project_content {
 		width: 370px;
+	}
+
+	.note {
+		width: 250px;
 	}
 }
