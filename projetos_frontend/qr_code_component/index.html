@@ -5,73 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
 
   <title>QR code component</title>
-
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
-
-    body {
-      background-color: hsl(220, 15%, 55%);
-    }
-
-    .container {
-      background-color: hsl(0, 0%, 100%);
-      margin: auto;
-      margin-top: 50px;
-      width: 350px;
-      height: 530px;
-      border-radius: 20px;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .qr_code_image {
-      border-radius: 20px;
-      width: 320px;
-      height: 320px;
-    }
-
-    .primary_text {
-      font-family: 'Outfit', sans-serif;
-      font-weight: 700;
-      color: hsl(218, 44%, 22%);
-      font-size: 20px;
-    }
-
-    .secondary_text {
-      font-family: 'Outfit', sans-serif;
-      font-weight: 400;
-      color: hsl(216, 5%, 57%);
-      font-size: 15px
-    }
-
-
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-      margin-top: 20px;
-    }
-  </style>
 </head>
 <body>
 
   <main class="container">
-    <img src="./images/image-qr-code.png" alt="qr-code" class="qr_code_image">
-    <p class="primary_text">
-      Improve your front-end skills by building projects
-    </p>
-    <p class="secondary_text">
-      Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-    </p>
+    <div class="card">
+      <img src="./images/image-qr-code.png" alt="qr-code" class="qr-code-image">
+      <h1 class="primary-text">
+        Improve your front-end skills by building projects
+      </h1>
+      <h2 class="secondary-text">
+        Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+      </h2>
+    </div>
   </main>
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://devid8642.github.io" target="_blank">Dêvid Teófilo</a>.
-  </div>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer noopener">Frontend Mentor</a>. 
+    Coded by <a href="https://devid8642.github.io" target="_blank" rel="noreferrer noopener">Dêvid Teófilo</a>.
+  </footer>
 </body>
 </html>

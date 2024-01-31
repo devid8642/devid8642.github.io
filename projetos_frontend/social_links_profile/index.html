@@ -5,121 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+
   <title>Frontend Mentor | Social links profile</title>
-
-  <style>
-    @font-face {
-      font-family: 'Inter';
-      src: url(assets/fonts/Inter-VariableFont_slnt,wght.ttf);
-    }
-
-    * {
-      font-family: 'Inter';
-      font-weight: 400;
-    }
-
-    body {
-      background-color: hsl(0, 0%, 8%);
-    }
-
-    .container {
-      background-color: hsl(0, 0%, 12%);
-      width: 340px;
-      margin: auto;
-      padding: 10px;
-      text-align: center;
-      border-radius: 15px;
-    }
-
-    .avatar-image {
-      border-radius: 50%;
-      width: 75px;
-      height: 75px;
-    }
-
-    .primary-title {
-      font-weight: 700;
-      color: hsl(0, 0%, 100%);
-    }
-
-    .secondary-title {
-      font-weight: 600;
-      color: hsl(75, 94%, 57%);
-    }
-
-    .description-text {
-      font-weight: 400;
-      color: hsl(0, 0%, 100%);
-    }
-
-    .social-profile-links-list {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-    }
-
-    .social-profile-links-list-item {
-      margin-bottom: 20px;
-    }
-
-    .social-profile-link:link, .social-profile-link:visited {
-      text-decoration: none;
-      color:hsl(0, 0%, 100%);
-      border-radius: 8px;
-      border: 1px solid hsl(0, 0%, 20%);
-      background-color: hsl(0, 0%, 20%);
-      display: block;
-      text-align: center;
-      padding: 10px;
-    }
-
-    .social-profile-link:hover, .social-profile-link:active {
-      background-color: hsl(75, 94%, 57%);
-      color: hsl(0, 0%, 8%);
-    }
-
-
-    .attribution { 
-      font-size: 11px; 
-      text-align: center;
-      color: white;
-      margin-top: 10px;
-    }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
   <main class="container">
-    <img class="avatar-image" src="assets/images/avatar-jessica.jpeg" alt="Jessica Avatar">
-    <h1 class="primary-title">Jessica Randall</h1>
-    <h2 class="secondary-title">London, United Kingdom</h2>
-    <p class="description-text">
-      "Front-end developer and avid reader."
-    </p>
-
-    <ul class="social-profile-links-list">
-      <li class="social-profile-links-list-item">
-        <a class="social-profile-link" href="#">GitHub</a>
-      </li>
-
-      <li class="social-profile-links-list-item">
-        <a class="social-profile-link" href="#">Frontend Mentor</a>
-      </li>
-
-      <li class="social-profile-links-list-item">
-        <a class="social-profile-link" href="#">LinkedIn</a>
-      </li>
-
-      <li class="social-profile-links-list-item">
-        <a class="social-profile-link" href="#">Twitter</a>
-      </li>
-
-      <li class="social-profile-links-list-item">
-        <a class="social-profile-link" href="#">Instagram</a>
-      </li>
-    </ul>
+    <div class="card">
+      <img class="avatar-image" src="assets/images/avatar-jessica.jpeg" alt="Jessica Avatar">
+      <h1 class="primary-title">Jessica Randall</h1>
+      <h2 class="secondary-title">London, United Kingdom</h2>
+      <p class="description-text">
+        "Front-end developer and avid reader."
+      </p>
+  
+      <ul class="social-profile-links-list">
+        <li class="social-profile-links-list-item">
+          <a class="social-profile-link" href="#">GitHub</a>
+        </li>
+  
+        <li class="social-profile-links-list-item">
+          <a class="social-profile-link" href="#">Frontend Mentor</a>
+        </li>
+  
+        <li class="social-profile-links-list-item">
+          <a class="social-profile-link" href="#">LinkedIn</a>
+        </li>
+  
+        <li class="social-profile-links-list-item">
+          <a class="social-profile-link" href="#">Twitter</a>
+        </li>
+  
+        <li class="social-profile-links-list-item">
+          <a class="social-profile-link" href="#">Instagram</a>
+        </li>
+      </ul>
+    </div>
   </main>
   
   <footer class="attribution">
