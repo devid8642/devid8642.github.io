@@ -43,7 +43,8 @@ body {
 .secondary-title {
     font-weight: 600;
     color: hsl(75, 94%, 57%);
-    font-size: 2rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
 }
 
 .description-text {
