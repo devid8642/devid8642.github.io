@@ -67,6 +67,20 @@ Use the object-fit property to make images occupy all the available space withou
 ...
 ```
 
+Using the ::marker pseudo element to style only list markers:
+
+```css
+...
+.preparation-list-item::marker {
+    color: var(--dark_raspberry);
+}
+...
+.ingredients-list-item::marker, .instructions-list-item::marker {
+    color: var(--nutmeg);
+}
+...
+```
+
 ## Author
 
 - Website - [Dêvid Teófilo](https://devid8642.github.io)

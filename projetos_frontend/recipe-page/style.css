@@ -41,6 +41,7 @@ body {
 .primary-title {
     font-family: 'Young Serif';
     font-size: 5rem;
+    font-weight: normal;
 }
 
 .secondary-title {
@@ -63,9 +64,14 @@ strong {
 
 .preparation-list {
     background-color: var(--rose_white);
-    padding: 3rem;
+    padding: 1.5rem;
+    margin-top: 2rem;
     border-radius: 1rem;
-    list-style-position: inside;
+    /* list-style-position: inside; */
+}
+
+.preparation-list-body {
+    padding-left: 2rem;
 }
 
 .instructions-list, .ingredients-list {
@@ -79,7 +85,7 @@ strong {
     color: var(--dark_raspberry);
 }
 
-.preparation-list-item {
+.preparation-list-item::marker {
     color: var(--dark_raspberry);
 }
 
@@ -87,15 +93,11 @@ strong {
 .instructions-list-item {
     margin-top: 1rem;
     margin-bottom: 1rem;
+    padding-left: 1.5rem;
 }
 
-.ingredients-list-item, .instructions-list-item {
+.ingredients-list-item::marker, .instructions-list-item::marker {
     color: var(--nutmeg);
-}
-
-.list-text {
-    color: var(--dark_charcoal);
-    display: inline;
 }
 
 .nutrion-table {
