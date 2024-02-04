@@ -1,0 +1,30 @@
+body {
+  font-family: "Hanken", sans-serif;
+  background-color: var(--pale_blue);
+  font-size: 1.8rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.result-component {
+  background-color: var(--white);
+  width: 750px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: var(--pale_blue);
+  border-radius: 2rem;
+}
+
+.attribution {
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
