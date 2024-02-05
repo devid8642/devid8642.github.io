@@ -1,92 +1,96 @@
 @font-face {
-    font-family: 'Figtree';
-    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+  font-family: "Figtree";
+  src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
 }
 
 @font-face {
-    font-family: 'Figtree Italic';
-    src: url(assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+  font-family: "Figtree Italic";
+  src: url(assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
 }
 
 :root {
-    --yellow: hsl(47, 88%, 63%);
-    --white: hsl(0, 0%, 100%);
-    --grey: hsl(0, 0%, 50%);
-    --black: hsl(0, 0%, 7%);
+  --yellow: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 50%);
+  --black: hsl(0, 0%, 7%);
 }
 
 body {
-    background-color: var(--yellow);
-    font-size: 1.6rem;
-    font-family: 'Figtree';
+  background-color: var(--yellow);
+  font-size: 1.6rem;
+  font-family: "Figtree";
 }
 
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
 }
 
 .card {
-    background-color: var(--white);
-    width: 360px;
-    padding: 2rem;
-    border-radius: 3rem;
-    border-top: 1px solid var(--black);
-    border-left: 1px solid var(--black);
-    box-shadow: 8px 8px var(--black);
+  background-color: var(--white);
+  width: 360px;
+  padding: 2rem;
+  border-radius: 3rem;
+  border-top: 1px solid var(--black);
+  border-left: 1px solid var(--black);
+  box-shadow: 8px 8px var(--black);
 }
 
 .card-image {
-    border-radius: 2rem;
+  border-radius: 2rem;
 }
 
 .tag {
-    background-color: var(--yellow);
-    font-weight: 800;
-    padding: .5rem;
-    border-radius: .5rem;
-    width: max-content;
+  background-color: var(--yellow);
+  font-weight: 800;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  width: max-content;
 }
 
 .date {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .primary-title {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
-.link-title:link, .link-title:visited {
-    text-decoration: none;
-    color: var(--black);
+.link-title:link,
+.link-title:visited {
+  text-decoration: none;
+  color: var(--black);
 }
 
-.link-title:hover, .link-title:active {
-    color: var(--yellow);
+.link-title:hover,
+.link-title:active {
+  color: var(--yellow);
 }
 
 .description-text {
-    color: var(--grey);
+  color: var(--grey);
 }
 
 .author {
-    font-weight: 600;
-    font-size: 1.3rem;
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
+  font-weight: 600;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
 }
 
 .author-image {
-    width: 28px;
-    height: 28px;
+  width: 28px;
+  height: 28px;
 }
 
-
-.attribution { 
-    text-align: center;
-    margin-top: 2rem;
+.attribution {
+  text-align: center;
+  margin-top: 2rem;
 }
 
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
