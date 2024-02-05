@@ -1,92 +1,95 @@
 @font-face {
-    font-family: 'Inter';
-    src: url(assets/fonts/Inter-VariableFont_slnt,wght.ttf);
+  font-family: "Inter";
+  src: url(assets/fonts/Inter-VariableFont_slntwght.ttf);
 }
 
 * {
-    font-family: 'Inter';
-    font-weight: 400;
+  font-family: "Inter";
+  font-weight: 400;
 }
 
 body {
-    background-color: hsl(0, 0%, 8%);
+  background-color: hsl(0, 0%, 8%);
 }
 
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
 }
 
 .card {
-    background-color: hsl(0, 0%, 12%);
-    width: 340px;
-    margin-top: 5rem;
-    padding: 1rem;
-    text-align: center;
-    border-radius: 15px;
+  background-color: hsl(0, 0%, 12%);
+  width: 340px;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 15px;
 }
 
 .avatar-image {
-    border-radius: 50%;
-    width: 75px;
-    height: 75px;
-    margin: auto;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  margin: auto;
 }
 
 .primary-title {
-    font-weight: 700;
-    color: hsl(0, 0%, 100%);
-    font-size: 3rem;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  font-size: 3rem;
 }
 
 .secondary-title {
-    font-weight: 600;
-    color: hsl(75, 94%, 57%);
-    font-size: 1.5rem;
-    margin-top: 1rem;
+  font-weight: 600;
+  color: hsl(75, 94%, 57%);
+  font-size: 1.5rem;
+  margin-top: 1rem;
 }
 
 .description-text {
-    font-weight: 400;
-    color: hsl(0, 0%, 100%);
-    font-size: 1.5rem;
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+  font-size: 1.5rem;
 }
 
 .social-profile-links-list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .social-profile-links-list-item {
-    margin-bottom: 1.5rem;
-    margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
 }
 
-.social-profile-link:link, .social-profile-link:visited {
-    text-decoration: none;
-    color:hsl(0, 0%, 100%);
-    font-size: 1.5rem;
-    font-weight: bold;
-    border-radius: 8px;
-    border: 1px solid hsl(0, 0%, 20%);
-    background-color: hsl(0, 0%, 20%);
-    display: block;
-    text-align: center;
-    padding: 1rem;
+.social-profile-link:link,
+.social-profile-link:visited {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 8px;
+  border: 1px solid hsl(0, 0%, 20%);
+  background-color: hsl(0, 0%, 20%);
+  display: block;
+  text-align: center;
+  padding: 1rem;
 }
 
-.social-profile-link:hover, .social-profile-link:active {
-    background-color: hsl(75, 94%, 57%);
-    color: hsl(0, 0%, 8%);
+.social-profile-link:hover,
+.social-profile-link:active {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
 }
 
-
-.attribution { 
-    font-size: 1.1rem; 
-    text-align: center;
-    color: white;
-    margin-top: 1rem;
+.attribution {
+  font-size: 1.1rem;
+  text-align: center;
+  color: white;
+  margin-top: 1rem;
 }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

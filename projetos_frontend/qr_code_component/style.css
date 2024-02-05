@@ -1,54 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
 
 body {
-    background-color: hsl(221, 63%, 89%);
+  background-color: hsl(221, 63%, 89%);
+  font-size: 1.2rem;
 }
 
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
 }
 
 .card {
-    background-color: hsl(0, 0%, 100%);
-    width: 350px;
-    height: 470px;
-    margin-top: 5rem;
-    border-radius: 20px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  background-color: hsl(0, 0%, 100%);
+  width: 350px;
+  height: 470px;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .qr-code-image {
-    border-radius: 20px;
-    width: 320px;
-    height: 320px;
+  border-radius: 20px;
+  width: 320px;
+  height: 320px;
 }
 
 .primary-text {
-    font-family: 'Outfit', sans-serif;
-    font-weight: 700;
-    color: hsl(218, 44%, 22%);
-    font-size: 2rem;
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  font-size: 2rem;
 }
 
 .secondary-text {
-    font-family: 'Outfit', sans-serif;
-    font-weight: 400;
-    color: hsl(216, 5%, 57%);
-    font-size: 1.5rem;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  color: hsl(216, 5%, 57%);
+  font-size: 1.5rem;
 }
 
 .attribution {
-    font-size: 1.1rem;
-    text-align: center;
-    margin-top: 20px;
+  text-align: center;
 }
 
 .attribution > a {
-    color: blue;
+  color: blue;
 }
