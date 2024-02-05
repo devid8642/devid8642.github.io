@@ -1,6 +1,6 @@
 body {
   font-family: "Hanken", sans-serif;
-  background-color: var(--pale_blue);
+  background-color: hsl(0, 0%, 100%);
   font-size: 1.8rem;
 }
 
@@ -20,6 +20,7 @@ body {
   justify-content: center;
   border-color: var(--pale_blue);
   border-radius: 2rem;
+  box-shadow: 2px 2px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
 .attribution {
