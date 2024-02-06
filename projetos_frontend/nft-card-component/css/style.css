@@ -1,0 +1,152 @@
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.8rem;
+  background-color: var(--very-dark-blue);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: var(--dark-blue);
+  width: 350px;
+  padding: 2.5rem;
+  border-radius: 2rem;
+}
+
+.card-image {
+  position: relative;
+}
+
+.card-image:hover {
+  cursor: pointer;
+}
+
+.card-image::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: background 0.3s ease;
+}
+
+.card-image:hover::after {
+  background: hsla(178, 100%, 50%, 0.4);
+}
+
+.card-image-principal {
+  border-radius: 1rem;
+}
+
+.card-image-hover {
+  position: absolute;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.3s ease;
+}
+
+.card-image:hover .card-image-hover,
+.card-image-hover:hover {
+  opacity: 1;
+}
+
+.card-title {
+  font-size: 2.5rem;
+  margin-top: 1.8rem;
+}
+
+.card-title-link:link,
+.card-title-link:visited {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.card-title-link:hover,
+.card-title-link:active {
+  color: var(--cyan);
+}
+
+.card-description {
+  color: var(--soft-blue);
+  font-weight: 300;
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-ethereum-price,
+.card-date,
+.card-footer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.card-ethereum-price {
+  color: var(--cyan);
+  font-weight: 600;
+}
+
+.card-date {
+  color: var(--soft-blue);
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+
+.separation-line {
+  margin-top: 1.8rem;
+  border-bottom: 1px solid var(--medium-blue);
+}
+
+.card-footer {
+  color: var(--soft-blue);
+  margin-top: 1.8rem;
+  gap: 1rem;
+}
+
+.card-footer-text {
+  margin-top: 0;
+}
+
+.card-author-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--white);
+}
+
+.card-author-name:link,
+.card-author-name:visited {
+  text-decoration: none;
+  color: var(--soft-blue);
+  display: inline-flex;
+}
+
+.card-author-name:hover,
+.card-author-name:active {
+  color: var(--cyan);
+}
+
+.attribution {
+  color: var(--white);
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.attribution a {
+  color: var(--cyan);
+}
