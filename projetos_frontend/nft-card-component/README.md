@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL]()
+- [Solution URL](https://www.frontendmentor.io/solutions/nft-card-component-solution-WcHSXQZqNh)
 - [Live Site URL](https://devid8642.github.io/projetos_frontend/nft-card-component/index.html)
 
 ## My process
