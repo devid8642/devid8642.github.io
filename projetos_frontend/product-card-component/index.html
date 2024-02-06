@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+
+    <title>Frontend Mentor | Product preview card component</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="product-card">
+        <picture>
+          <source
+            media="(max-width: 412px)"
+            srcset="images/image-product-mobile.jpg"
+          />
+          <img
+            class="product-image"
+            src="images/image-product-desktop.jpg"
+            alt="Perfume"
+          />
+        </picture>
+
+        <section class="product-info">
+          <h1 class="product-type">Perfume</h1>
+          <h2 class="product-name">Gabrielle Essence Eau De Parfum</h2>
+          <p class="product-description">
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL.
+          </p>
+          <div class="product-price">
+            <p class="product-price-primary">$149.99</p>
+            <p class="product-price-secondary">$169.99</p>
+          </div>
+          <button class="product-cta">
+            <p class="cta-content">
+              <img
+                class="cta-cart-image"
+                src="images/icon-cart.svg"
+                alt="Cart Icon"
+              />
+              Add to Cart
+            </p>
+          </button>
+        </section>
+      </div>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        rel="noreferrer noopener"
+        >Frontend Mentor</a
+      >. Coded by
+      <a
+        href="https://devid8642.github.io"
+        target="_blank"
+        rel="noreferrer noopener"
+        >Dêvid Teófilo</a
+      >.
+    </footer>
+  </body>
+</html>
