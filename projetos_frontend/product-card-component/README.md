@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
-- [Live Site URL](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/product-card-component-solution-JEo0hGJrve)
+- [Live Site URL](https://devid8642.github.io/projetos_frontend/product-card-component/index.html)
 
 ## My process
 
