@@ -1,0 +1,148 @@
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1.6rem;
+  background: var(--pale-blue) url("../images/pattern-background-desktop.svg")
+    no-repeat left top;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.order-component {
+  width: 350px;
+  background-color: white;
+  text-align: center;
+  border-radius: 2rem;
+}
+
+.order-image {
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+}
+
+.order-title {
+  font-size: 2.4rem;
+  font-weight: 900;
+  color: var(--dark-blue);
+  margin-top: 2.5rem;
+}
+
+.order-description {
+  color: var(--desaturated-blue);
+}
+
+.order-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--very-pale-blue);
+  width: 320px;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.order-info-type {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.order-info-type-name {
+  font-weight: 900;
+  color: var(--dark-blue);
+  margin-top: 0;
+}
+
+.order-info-price {
+  margin-top: 0;
+  color: var(--desaturated-blue);
+}
+
+.order-info-change {
+  text-decoration: underline;
+  color: var(--bright-blue);
+  font-size: 1.4rem;
+  border: none;
+  background-color: transparent;
+  transition: color 0.5s;
+}
+
+.order-info-change:hover {
+  text-decoration: none;
+  color: hsla(245, 75%, 52%, 0.7);
+  cursor: pointer;
+}
+
+.order-cta {
+  display: block;
+  border: none;
+  border-radius: 1rem;
+  background-color: var(--bright-blue);
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  width: 320px;
+  margin: auto;
+  margin-bottom: 2rem;
+  padding: 1rem 2.5rem;
+  transition: background-color 0.5s;
+}
+
+.order-cta:hover {
+  background-color: hsla(245, 75%, 52%, 0.7);
+  cursor: pointer;
+}
+
+.order-cancel {
+  display: block;
+  color: var(--desaturated-blue);
+  border: none;
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 1.4rem;
+  text-align: center;
+  width: max-content;
+  margin: auto;
+  margin-bottom: 2rem;
+  transition: color 0.5s;
+}
+
+.order-cancel:hover {
+  color: var(--dark-blue);
+  cursor: pointer;
+}
+
+.attribution {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 412px) {
+  body {
+    background: var(--pale-blue) url("../images/pattern-background-mobile.svg")
+      no-repeat left top;
+  }
+}
