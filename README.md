@@ -1,6 +1,6 @@
-# Frontend Mentor - Results summary component solution
+# Frontend Mentor - Order summary card solution
 
-This is a solution to the [Results summary component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -18,9 +18,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 Users should be able to:
 
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
-- **Bonus**: Use the local JSON data to dynamically populate the content
+- See hover states for interactive elements
 
 ### Screenshot
 
@@ -28,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://www.frontendmentor.io/solutions/results-summary-component-solution-tUJOP7Mq3E)
-- [Live Site URL](https://devid8642.github.io/projetos_frontend/results-summary-component/index.html)
+- [Solution URL](https://www.frontendmentor.io/solutions/order-summary-component-solution-WKKi3G7h64)
+- [Live Site URL](https://devid8642.github.io/projetos_frontend/order-summary-component/index.html)
 
 ## My process
 
@@ -38,7 +36,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Adapt for mobile.
+- CSS Grid
 
 ## Author
 
