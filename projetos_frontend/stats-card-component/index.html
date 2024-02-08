@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+  </head>
+  <body>
+    <main class="container">
+      <h1 class="sr-only">Frontend Mentor Project Submission</h1>
+
+      <article class="stats-card">
+        <section class="stats-card-text-section">
+          <h2 class="stats-card-title">
+            Get <strong class="highlight-text">insights</strong> that help your
+            business grow.
+          </h2>
+
+          <p class="stats-card-description">
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+
+          <div class="stats-card-stats">
+            <div>
+              <p class="stats-card-stats-principal-text">10k+</p>
+              <p class="stats-card-stats-secondary-text">companies</p>
+            </div>
+
+            <div>
+              <p class="stats-card-stats-principal-text">314</p>
+              <p class="stats-card-stats-secondary-text">templates</p>
+            </div>
+
+            <div>
+              <p class="stats-card-stats-principal-text">12m+</p>
+              <p class="stats-card-stats-secondary-text">queries</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="stats-card-image-section">
+          <picture>
+            <source
+              media="(max-width: 412px)"
+              srcset="images/image-header-mobile.jpg"
+            />
+            <img
+              class="stats-card-image"
+              src="images/image-header-desktop.jpg"
+              alt="Image Header"
+            />
+          </picture>
+        </section>
+      </article>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Frontend Mentor</a
+      >. Coded by
+      <a
+        href="https://devid8642.github.io"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Dêvid Teófilo</a
+      >.
+    </footer>
+  </body>
+</html>
