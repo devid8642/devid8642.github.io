@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL:]()
-- [Live Site URL:]()
+- [Solution URL:](https://www.frontendmentor.io/solutions/3-column-card-component-solution-Kl7wtROoPJ)
+- [Live Site URL:](https://devid8642.github.io/projetos_frontend/3-column-card-component/index.html)
 
 ## My process
 
