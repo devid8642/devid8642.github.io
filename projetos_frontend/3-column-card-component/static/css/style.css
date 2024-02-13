@@ -1,0 +1,105 @@
+body {
+  background-color: var(--very-light-gray);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.card-3-column {
+  display: flex;
+}
+
+.card-section {
+  width: 300px;
+  height: 450px;
+  padding: 2rem;
+}
+
+.card-section-title {
+  font-family: "big-shoulders", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+  color: var(--very-light-gray);
+}
+
+.card-description {
+  color: var(--transparent-white);
+  margin-top: 3rem;
+  margin-bottom: 10rem;
+}
+
+.card-sedan-section {
+  background-color: var(--bright-orange);
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.card-sedan-section > .card-link {
+  color: var(--bright-orange);
+}
+
+.card-suv-section {
+  background-color: var(--dark-cyan);
+}
+
+.card-suv-section > .card-link {
+  color: var(--dark-cyan);
+}
+
+.card-luxury-section {
+  background-color: var(--very-dark-cyan);
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.card-luxury-section > .card-link {
+  color: var(--very-dark-cyan);
+}
+
+.card-link:link,
+.card-link:visited {
+  display: block;
+  text-decoration: none;
+  background-color: var(--very-light-gray);
+  font-size: 1.3rem;
+  font-weight: 600;
+  width: max-content;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  transition: background-color 0.3s, color 0.3s;
+  border: 2px solid var(--very-light-gray);
+}
+
+.card-link:hover,
+.card-link:active {
+  background-color: transparent;
+  color: var(--very-light-gray);
+}
+
+.attribution {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

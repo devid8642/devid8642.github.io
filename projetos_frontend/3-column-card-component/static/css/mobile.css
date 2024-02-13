@@ -1,0 +1,25 @@
+@media screen and (max-width: 412px) {
+  .container {
+    height: auto;
+  }
+
+  .card-3-column {
+    flex-direction: column;
+  }
+
+  .card-sedan-section {
+    border-radius: 0;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+  }
+
+  .card-luxury-section {
+    border-radius: 0;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+  }
+
+  .attribution {
+    margin-top: 2rem;
+  }
+}
