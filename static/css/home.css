@@ -1,0 +1,121 @@
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.profile_image {
+  border-radius: 50%;
+}
+
+.title {
+  text-align: center;
+  color: #8ae234;
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.subtitle {
+  text-align: center;
+  color: #8ae234;
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.intro-text,
+.note,
+.project-description {
+  margin-top: 0;
+  text-align: justify;
+}
+
+.principal-projects > .title {
+  margin-top: 2rem;
+}
+
+.principal-projects p {
+  margin-top: 0;
+}
+
+.project-links {
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+  margin-top: 0;
+  padding-left: 0;
+}
+
+.note {
+  width: 500px;
+  font-size: medium;
+}
+
+.link {
+  color: #13e013;
+}
+
+.list_without_style {
+  list-style-type: none;
+}
+
+.project,
+.study_notes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.project {
+  margin-top: 4rem;
+}
+
+.project_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+}
+
+.centralized_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.spaced_buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.button_link:link,
+.button_link:visited {
+  text-decoration: none;
+  color: #13e013;
+  background-color: #241f33;
+  border: 2px solid #0f8d0f;
+  text-align: center;
+  display: block;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+  width: 150px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button_link:hover,
+.button_link:active {
+  background-color: #13e013;
+  color: #241f33;
+}
+
+.subtitle_with_text {
+  width: 700px;
+}
+
+.study-notes-list > li {
+  margin-bottom: 2rem;
+}

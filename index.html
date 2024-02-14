@@ -3,8 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="static/css/reset.css" />
     <link rel="stylesheet" type="text/css" href="static/css/style.css" />
+    <link rel="stylesheet" href="static/css/home.css" />
+    <link rel="stylesheet" href="static/css/home-mobile.css" />
+
     <title>Dêvid Teófilo</title>
   </head>
   <body>
@@ -16,14 +20,12 @@
         </div>
         <div class="subtitle_with_text">
           <h2 class="subtitle">Sobre mim</h2>
-          <p>
-            Sou desenvolvedor web Python, capaz de construir aplicações web
-            utilizando ferramentas como Django, Flask e FastAPI. Além disso,
-            também construo interfaces web para essas aplicações utilizando
-            tecnologias como: HTML, CSS, JavaScript, Bootstrap e HTMX. Gerencio
-            e implemento os projetos desenvolvidos com essas tecnologias
-            utilizando ferramentas e as mais modernas práticas de engenharia de
-            software e devops:
+          <p class="intro-text">
+            Sou desenvolvedor web Python, construo aplicações com ferramentas
+            como Django, Flask e FastAPI. Também desenvolvo as interfaces dessas
+            aplicações utilizando as principais tecnologias frontend do mercado.
+            Gerencio e implemento esses projetos com práticas e ferramentas
+            como:
             <a
               class="link"
               href="https://12factor.net/pt_br/"
@@ -31,11 +33,8 @@
               rel="noreferrer noopener"
               >twelve-factor practices</a
             >, versionameto com Git, testes automatizados, conteinerização com
-            Docker e CI/CD.
-          </p>
-          <p>
-            Estudante de Ciência da Computação na Estácio. Técnico em
-            informática, com ênfase em programação, pelo IFPB.
+            Docker e CI/CD. Estudante de Ciência da Computação na Estácio.
+            Técnico em informática, com ênfase em programação, pelo IFPB.
           </p>
           <div class="spaced_buttons">
             <a
@@ -82,11 +81,11 @@
 
       <hr />
 
-      <section>
-        <h1 class="title">Meus Principais Projetos</h1>
+      <section class="principal-projects">
+        <h2 class="title">Meus Principais Projetos</h2>
         <div class="project">
           <div>
-            <h2 class="subtitle">Em desenvolvimento...</h2>
+            <h3 class="subtitle">Em desenvolvimento...</h3>
             <img
               class="project_image"
               src="static/images/upcomming.gif"
@@ -95,7 +94,7 @@
           </div>
           <div class="project_content">
             <h2 class="subtitle">Descrição do Projeto</h2>
-            <p>
+            <p class="project-description">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Exercitationem rem eligendi non aut porro, molestiae tempora
               maiores accusantium, a nemo eum dolore fugiat itaque rerum dolor
@@ -104,66 +103,23 @@
               molestiae, magni laboriosam obcaecati eaque porro numquam,
               excepturi iure, minima ullam pariatur quidem distinctio ipsam vel?
             </p>
-            <ul class="list_without_style">
-              <li class="link_list">
+            <ul class="list_without_style project-links">
+              <li>
                 <a
-                  class="link"
+                  class="button_link"
                   href="#"
                   target="_blank"
                   rel="noreferrer noopener"
-                  >Link para o projeto</a
+                  >Projeto</a
                 >
               </li>
-              <li class="link_list">
+              <li>
                 <a
-                  class="link"
+                  class="button_link"
                   href="#"
                   target="_blank"
                   rel="noreferrer noopener"
-                  >Link para o repo do projeto</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="project">
-          <div>
-            <h2 class="subtitle">Em desenvolvimento...</h2>
-            <img
-              class="project_image"
-              src="static/images/upcomming.gif"
-              alt="Projeto Cordel"
-            />
-          </div>
-          <div class="project_content">
-            <h2 class="subtitle">Descrição do Projeto</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-              velit quae sunt vero perferendis odio vitae sit quam, aliquid
-              consequatur blanditiis eaque nulla minima cum natus nobis culpa
-              iusto delectus. Lorem ipsum dolor sit, amet consectetur
-              adipisicing elit. Odit hic deleniti id voluptates commodi. Fugit
-              nisi eligendi itaque amet, molestiae ullam perspiciatis ad
-              explicabo tempora maxime. Velit ducimus maiores enim!
-            </p>
-            <ul class="list_without_style">
-              <li class="link_list">
-                <a
-                  class="link"
-                  href="#"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  >Link para o projeto</a
-                >
-              </li>
-              <li class="link_list">
-                <a
-                  class="link"
-                  href="#"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  >Link para o repo do projeto</a
+                  >Repositório</a
                 >
               </li>
             </ul>
@@ -172,7 +128,7 @@
 
         <div class="project">
           <div>
-            <h2 class="subtitle">Em desenvolvimento...</h2>
+            <h3 class="subtitle">Em desenvolvimento...</h3>
             <img
               class="project_image"
               src="static/images/upcomming.gif"
@@ -180,8 +136,8 @@
             />
           </div>
           <div class="project_content">
-            <h2 class="subtitle">Descrição do Projeto</h2>
-            <p>
+            <h3 class="subtitle">Descrição do Projeto</h3>
+            <p class="project-description">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
               velit quae sunt vero perferendis odio vitae sit quam, aliquid
               consequatur blanditiis eaque nulla minima cum natus nobis culpa
@@ -190,23 +146,66 @@
               nisi eligendi itaque amet, molestiae ullam perspiciatis ad
               explicabo tempora maxime. Velit ducimus maiores enim!
             </p>
-            <ul class="list_without_style">
-              <li class="link_list">
+            <ul class="list_without_style project-links">
+              <li>
                 <a
-                  class="link"
+                  class="button_link"
                   href="#"
                   target="_blank"
                   rel="noreferrer noopener"
-                  >Link para o projeto</a
+                  >Projeto</a
                 >
               </li>
-              <li class="link_list">
+              <li>
                 <a
-                  class="link"
+                  class="button_link"
                   href="#"
                   target="_blank"
                   rel="noreferrer noopener"
-                  >Link para o repo do projeto</a
+                  >Repositório</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="project">
+          <div>
+            <h3 class="subtitle">Em desenvolvimento...</h3>
+            <img
+              class="project_image"
+              src="static/images/upcomming.gif"
+              alt="Projeto Cordel"
+            />
+          </div>
+          <div class="project_content">
+            <h3 class="subtitle">Descrição do Projeto</h3>
+            <p class="project-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              velit quae sunt vero perferendis odio vitae sit quam, aliquid
+              consequatur blanditiis eaque nulla minima cum natus nobis culpa
+              iusto delectus. Lorem ipsum dolor sit, amet consectetur
+              adipisicing elit. Odit hic deleniti id voluptates commodi. Fugit
+              nisi eligendi itaque amet, molestiae ullam perspiciatis ad
+              explicabo tempora maxime. Velit ducimus maiores enim!
+            </p>
+            <ul class="list_without_style project-links">
+              <li>
+                <a
+                  class="button_link"
+                  href="#"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  >Projeto</a
+                >
+              </li>
+              <li>
+                <a
+                  class="button_link"
+                  href="#"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  >Repositório</a
                 >
               </li>
             </ul>
@@ -228,9 +227,9 @@
 
       <section class="study_notes">
         <div>
-          <h1 class="title">Notas de Estudo</h1>
-          <ul class="list_without_style">
-            <li class="link_list">
+          <h2 class="title">Notas de Estudo</h2>
+          <ul class="list_without_style study-notes-list">
+            <li>
               <a
                 class="link"
                 href="https://github.com/devid8642/Algorithms-and-Data-Structures"
@@ -239,7 +238,7 @@
                 >Algoritmos e Estrutura de Dados</a
               >
             </li>
-            <li class="link_list">
+            <li>
               <a
                 class="link"
                 href="https://github.com/devid8642/versionamento-git"
@@ -248,7 +247,7 @@
                 >Versionamento e Git</a
               >
             </li>
-            <li class="link_list">
+            <li>
               <a
                 class="link"
                 href="https://github.com/devid8642/frontend"
