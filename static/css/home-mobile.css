@@ -1,0 +1,54 @@
+@media screen and (max-width: 1200px) and (min-width: 800px) {
+  .project_image {
+    width: 600px;
+  }
+
+  .subtitle {
+    margin-top: 2rem;
+  }
+
+  .subtitle_with_text {
+    width: 500px;
+  }
+
+  .project-description {
+    width: 340px;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+  .intro {
+    flex-wrap: wrap;
+  }
+
+  .project_image {
+    width: 340px;
+  }
+
+  .subtitle_with_text,
+  .project_content {
+    width: 370px;
+  }
+
+  .project-links {
+    gap: 2rem;
+  }
+
+  .project,
+  .study_notes {
+    flex-wrap: wrap;
+  }
+
+  .project-description {
+    width: 340px;
+  }
+
+  .note {
+    width: 250px;
+  }
+
+  .spaced_buttons {
+    justify-content: space-between;
+  }
+}
