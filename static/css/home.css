@@ -52,7 +52,7 @@
   font-size: medium;
 }
 
-.link:link, .button_link:visited {
+.link:link, .link:visited {
   color: #13e013;
   transition: color 0.3s;
 }
