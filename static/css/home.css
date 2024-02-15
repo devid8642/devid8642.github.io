@@ -52,8 +52,13 @@
   font-size: medium;
 }
 
-.link {
+.link:link, .button_link:visited {
   color: #13e013;
+  transition: color 0.3s;
+}
+
+.link:hover, .link:active {
+  color: #8ae234;
 }
 
 .list_without_style {
