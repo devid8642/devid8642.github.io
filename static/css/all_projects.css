@@ -1,0 +1,35 @@
+.title {
+  font-size: 2.5em;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.subtitle-section {
+  margin-bottom: 2rem;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.project-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.project-list-item {
+  margin-bottom: 1.5rem;
+}
+
+.link:link,
+.link:visited {
+  color: #13e013;
+  transition: color 0.3s;
+}
+
+.link:hover,
+.link:active {
+  color: #66fd66;
+}
